@@ -3831,6 +3831,13 @@ RangeMapWrite(
     _Out_opt_ PDWORD DoneBytes
     );
 
+
+#ifdef __cplusplus
+    }
+#endif
+
+
+
 #include <poppack.h>
 
 
